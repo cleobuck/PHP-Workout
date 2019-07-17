@@ -9,3 +9,13 @@ array("Alex", "Max", "Dominique", "Claude", "Leslie", "Charlie", "Lou");
 Mail : "Salut prénom, devine quoi ! Je me marie dans samedi dans deux semaines ! J'espère te compter parmi les invités ! Gros bisous :)"
  
  -->
+
+<?php 
+
+$guests = ["Alex", "Max", "Dominique", "Claude", "Leslie", "Charlie", "Lou"];
+
+foreach ($guests as $value) {
+    echo "Salut $value, Devine devine quoi ! Je me marie dans samedi dans deux semaines ! J'espère te compter parmi les invités ! Gros bisous :)<br><br>";
+}
+
+?>
